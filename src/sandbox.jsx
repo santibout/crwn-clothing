@@ -5,7 +5,6 @@ class Sandbox extends Component {
     super(props);
     this.state = {};
   }
-
   render() {
     console.log(`window`, window.location.pathname);
     let ToRender;
